@@ -1,1 +1,109 @@
+body > table{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table.list{
+    width:200%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 20;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number] {
+    width: 20%;
+    padding: 5px 4px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+input[type=submit]{
+    width: 10%;
+    background-color: #ddd;
+    color: #000;
+    padding: 5px 4px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: center;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #f2f5f7;
+  }
+  
+  .table1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+  }
+  
+  .table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+  }
+  
+  .table1 tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  #myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+  }
+
+  .tombol{
+    width: 10%;
+    background-color: #ddd;
+    color: #000;
+    padding: 5px 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ 
+    
+  }
 
